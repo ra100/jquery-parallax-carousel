@@ -1,0 +1,22 @@
+.pcarousel {
+  width: 980px;
+  height: 280px;
+  background: transparent url(bg.png) no-repeat 0 0;
+  overflow: hidden;
+  position: relative;
+}
+
+.pcarousel .slide {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+
+.pcarousel-overlay {
+  position: absolute;
+  bottom: 0px;
+  left: 150px;
+  width: 306px;
+  height: 205px;
+  background: transparent url('overlay.png') no-repeat 0 0
+}
